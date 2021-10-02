@@ -4,6 +4,7 @@ public class Bairro {
 
     private Integer id;
     private String nome;
+    private Integer idCidade;
 
     public Integer getId() {
         return id;
@@ -19,5 +20,13 @@ public class Bairro {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public Integer getIdCidade() {
+        return idCidade;
+    }
+
+    public void setIdCidade(Integer idCidade) {
+        this.idCidade = idCidade;
     }
 }
