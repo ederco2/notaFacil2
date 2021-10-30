@@ -4,6 +4,10 @@ public class Estado {
     private Integer id;
     private String descricao;
 
+
+    public Estado() {
+    }
+
     public Integer getId() {
         return id;
     }
