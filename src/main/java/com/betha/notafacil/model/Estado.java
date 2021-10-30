@@ -1,27 +1,15 @@
 package com.betha.notafacil.model;
 
-public class Estado {
-    private Integer id;
-    private String descricao;
+import com.betha.notafacil.enterprise.AbstractRegion;
 
+public class Estado extends AbstractRegion {
+    private String uf;
 
-    public Estado() {
+    public String getUf() {
+        return uf;
     }
 
-    public Integer getId() {
-        return id;
+    public void setUf(String uf) {
+        this.uf = uf;
     }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
 }
