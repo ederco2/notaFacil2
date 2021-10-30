@@ -1,19 +1,10 @@
 package com.betha.notafacil.model;
 
-public class Atividade {
+import com.betha.notafacil.enterprise.AbstractEntity;
 
-    private Integer id;
+public class Atividade  extends AbstractEntity {
     private String descricao;
-    private Integer CNAE;
-    private Double aliquota;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
+    private ListaServicos listaServicos;
 
     public String getDescricao() {
         return descricao;
@@ -23,19 +14,13 @@ public class Atividade {
         this.descricao = descricao;
     }
 
-    public Integer getCNAE() {
-        return CNAE;
+    public ListaServicos getListaServicos() {
+        return listaServicos;
     }
 
-    public void setCNAE(Integer CNAE) {
-        this.CNAE = CNAE;
+    public void setListaServicos(ListaServicos listaServicos) {
+        this.listaServicos = listaServicos;
     }
 
-    public Double getAliquota() {
-        return aliquota;
-    }
 
-    public void setAliquota(Double aliquota) {
-        this.aliquota = aliquota;
-    }
 }

@@ -3,7 +3,6 @@ package com.betha.notafacil.model;
 import com.betha.notafacil.enterprise.AbstractRegion;
 
 public class Bairro extends AbstractRegion {
-    private String cep;  //avaliar
 
     private Cidade cidade;
 
